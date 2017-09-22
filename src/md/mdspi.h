@@ -1,5 +1,5 @@
 #pragma once
-#include "ThostFtdcMdApi.h"
+#include "../../include/ThostFtdcMdApi.h"
 #include "../basicFun/basicFun.h"
 #include <stdio.h>
 #include <stdlib.h>

@@ -121,8 +121,9 @@ bool CtpTraderSpi::IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo)
 	// 如果ErrorID != 0, 说明收到了错误的响应
 	bool ret = ((pRspInfo) && (pRspInfo->ErrorID != 0));
   if (ret){
-    //basicPrint(pRspInfo->ErrorMsg);
-    cerr<<" ret error | "<<pRspInfo->ErrorMsg<<endl;
+    basicPrint(pRspInfo->ErrorMsg);
+    // cerr<<" ret error trader | "<<pRspInfo->ErrorMsg<<endl;
+    cerr<<" ret error trader | "<<ConvertGb18030ToUtf8(pRspInfo->ErrorMsg)<<endl;
   }
 	return ret;
 }

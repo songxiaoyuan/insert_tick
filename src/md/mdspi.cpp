@@ -63,7 +63,7 @@ void CtpMdSpi::OnRtnDepthMarketData(
 	md_queue.push(temp);
 	pthread_mutex_unlock(&MUTEX);
   string InstrumentID = pDepthMarketData->InstrumentID;
-  cout<<InstrumentID<<endl;
+  cout<<InstrumentID<<":"<<pDepthMarketData->LastPrice<<endl;
   strToFile(InstrumentID);
 
 /*
@@ -80,7 +80,7 @@ bool CtpMdSpi::IsErrorRspInfo(CThostFtdcRspInfoField *pRspInfo)
 {
   bool ret = ((pRspInfo) && (pRspInfo->ErrorID != 0));
   if (ret){
-    cerr<<" on req | "<<pRspInfo->ErrorMsg<<endl;
+    cerr<<" on req md error| "<<pRspInfo->ErrorMsg<<endl;
   }
   return ret;
 }

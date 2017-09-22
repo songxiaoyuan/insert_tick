@@ -2,7 +2,7 @@
 #define ORDER_TRADERSPI_H_
 #pragma once
 
-#include "../api/ThostFtdcTraderApi.h"
+#include "../../include/ThostFtdcTraderApi.h"
 #include "../basicFun/basicFun.h"
 #include <iostream>
 #include <stdlib.h>

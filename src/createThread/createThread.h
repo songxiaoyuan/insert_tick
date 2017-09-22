@@ -1,6 +1,6 @@
 #ifndef CREATETHREAD_H
 #define CREATETHREAD_H
-#include "../api/ThostFtdcUserApiStruct.h"
+#include "../../include/ThostFtdcUserApiStruct.h"
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +9,9 @@
 #include <string.h>
 #include <float.h>
 #include <queue>
+#include <occi.h>
 using namespace std;
+using namespace oracle::occi;
 
 class createThread
 {
@@ -23,9 +25,16 @@ class createThread
     protected:
     private:
         //线程执行函数
-         pthread_t pid;
+        pthread_t pid;
         int threadRun();
+        string createSQL(CThostFtdcDepthMarketDataField *temp);
         bool exceptionHandling(CThostFtdcDepthMarketDataField *temp);
+
+        Environment *env;
+        Connection *conn;
+        Statement *pStmt;
+        string oracle_name;
+        string oracle_pass;
 };
 
 #endif // CREATETHREAD_H

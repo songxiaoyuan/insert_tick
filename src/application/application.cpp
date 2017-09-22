@@ -11,13 +11,18 @@ application::application() {
 
 void application::ConfigFun() {
     //此函数主要是用来获取一些配置信息包括前置地址等。通过读取config.txt来获得信息。
-	string path = "config.txt";
+	string path = "./config.txt";
 	unordered_map<string,string> ret =  GetConfigInfo(path);
 	MDFRONT=ChangeStrToChar(ret["MDFRONT"]);
 	TRADEFRONT=ChangeStrToChar(ret["TRADERFRONT"]);
 	strcpy(APPID,ChangeStrToChar(ret["APPID"]));
 	strcpy(USERID,ChangeStrToChar(ret["USERID"]));
 	strcpy(PASSWD,ChangeStrToChar(ret["PASSWD"]));
+
+
+  cout<<APPID<<endl;
+  cout<<USERID<<endl;
+  cout<<PASSWD<<endl;
 	
 }
 
@@ -30,13 +35,24 @@ void application::Init() {
     pMdApi->Init();                     //接口线程启动, 开始工作
 
   	//初始化traderApi
-    pTraderApi = CThostFtdcTraderApi::CreateFtdcTraderApi();
+  pTraderApi = CThostFtdcTraderApi::CreateFtdcTraderApi();
 	pTraderSpi = new CtpTraderSpi(pTraderApi);
 	pTraderApi->RegisterSpi((CThostFtdcTraderSpi*)pTraderSpi);			// 注册事件类
 	pTraderApi->SubscribePublicTopic(THOST_TERT_RESTART);					// 注册公有流
 	pTraderApi->SubscribePrivateTopic(THOST_TERT_RESTART);			  // 注册私有流
 	pTraderApi->RegisterFront(TRADEFRONT);	// 注册交易前置地址
 	pTraderApi->Init();
+
+
+  createThread *ct = new createThread();
+  //cout<<"the address of ct is "<<ct<<endl;
+  int start = ct->start();
+  //cout<<"starting the thread"<<endl;
+  if (!start){
+    cout<<"the thread is not installed"<<endl;
+    //创建线程没有成功，下次重新创建。
+  }
+  //create the oracle thread
 
 }
 
@@ -54,8 +70,8 @@ void application::Run() {
         //用户登录信息，包括md登录和trader登录
         // MD用户开始登录
         MdUserLogin(APPID, USERID, PASSWD);
-		//trader 用户开始登陆
-		TraderUserLogin(APPID, USERID, PASSWD);
+		    //trader 用户开始登陆
+		    TraderUserLogin(APPID, USERID, PASSWD);
         break;
       }
       case 2: {
@@ -88,7 +104,7 @@ void application::MdUserLogin(TThostFtdcBrokerIDType appId,
   strcpy(req.UserID, userId);
   strcpy(req.Password, passwd);
   int ret = pMdApi->ReqUserLogin(&req, ++requestid_);
-  cerr << " req | send login..." << ((ret == 0) ? "success" : "fail") << endl;
+  cerr << " req md | send login..." << ((ret == 0) ? "success" : "fail") << endl;
 }
 
 
@@ -101,12 +117,12 @@ void application::TraderUserLogin(TThostFtdcBrokerIDType appId,
    strcpy(req.UserID, userId);
    strcpy(req.Password, passwd);
    int ret = pTraderApi->ReqUserLogin(&req, ++requestid_);
-    cerr<<" request | send login in..."<<((ret == 0) ? "succeed" :"failed") << endl;
+    cerr<<" request trader | send login in..."<<((ret == 0) ? "succeed" :"failed") << endl;
 
 	//开始结算单请求并且确认
 
-	pTraderSpi->ReqQrySettlementInfo(appId,userId,requestid_);
-	pTraderSpi->ReqSettlementInfoConfirm(appId,userId,requestid_);
+	// pTraderSpi->ReqQrySettlementInfo(appId,userId,requestid_);
+	// pTraderSpi->ReqSettlementInfoConfirm(appId,userId,requestid_);
 }
 
 void application::GetAllInstrumentIds(){
@@ -118,9 +134,19 @@ void application::GetAllInstrumentIds(){
 
 void application::SubscribeMarketData() {
 	set<string> instrumentIds = pTraderSpi->getSetInstruments();
-	set<string>::iterator iter=instrumentIds.begin();  
-      
-    while(iter!=instrumentIds.end())  
+	// set<string>::iterator iter=instrumentIds.begin();  
+  
+
+  // char** tmp = new char* [1];
+  // tmp[0] = ChangeStrToChar("rb1801");
+  // int ret = pMdApi->SubscribeMarketData(tmp, 1);
+
+  set<string> instruments_tmp;
+  instruments_tmp.insert("rb1801");
+   set<string>::iterator iter=instruments_tmp.begin();  
+
+    // while(iter!=instrumentIds.end())  
+   while(iter!=instruments_tmp.end())  
     {  
         cout<<*iter<<endl;  
 		char** tmp = new char* [1];

@@ -5,7 +5,11 @@ extern queue<CThostFtdcDepthMarketDataField> md_queue;
 
 createThread::createThread()
 {
-  cout<<"init the thread"<<endl;
+  cout<<"start init the thread"<<endl;
+  oracle_name = "hyqh";
+  oracle_pass = "hyqh";
+  env=Environment::createEnvironment();
+  // conn = env->createConnection(oracle_name,oracle_pass);
 }
 
 
@@ -110,26 +114,65 @@ int createThread::threadRun(){
   //{
   //  return;
   //}
-  while(1)
-  {
-    pthread_mutex_lock(&MUTEX);
-    if (md_queue.empty())
+    try
     {
-      pthread_mutex_unlock(&MUTEX);
-      continue;
-    }
-    CThostFtdcDepthMarketDataField temp=md_queue.front();
-    md_queue.pop();
-    pthread_mutex_unlock(&MUTEX);
-    bool rightMD=exceptionHandling(&temp);
-    if (!rightMD)
-    {
-      continue;
-    }
-    //updateID++;
+      // Connection *conn = env->createConnection(name,pass,srvName);
+      conn = env->createConnection(oracle_name,oracle_pass);
+      cout<<"conn success"<<endl;
 
-    //hcdbi_insert_mdTick(&temp,updateID);
-  }
+  //  数据操作,创建Statement对象
+      pStmt = NULL;    // Statement对象
+      pStmt = conn->createStatement();
+      if(NULL == pStmt) {
+        cout<<"create statement error"<<endl;
+        return -1;
+      }
+             
+
+      cout<<"has init the Statement\n"<<endl;
+      //--------插入---------
+      // 指定DML为自动提交
+      pStmt->setAutoCommit(TRUE);
+
+        while(1)
+        {
+          pthread_mutex_lock(&MUTEX);
+          if (md_queue.empty())
+          {
+            pthread_mutex_unlock(&MUTEX);
+            continue;
+          }
+          CThostFtdcDepthMarketDataField temp=md_queue.front();
+          md_queue.pop();
+          pthread_mutex_unlock(&MUTEX);
+          bool rightMD=exceptionHandling(&temp);
+          if (!rightMD)
+          {
+            continue;
+          }
+          //start insert to database
+          std::string sql = createSQL(&temp);
+          cout<<sql<<endl;
+          //pStmt->setSQL("INSERT INTO TA (ID, NAME) VALUES (1, 'ZS')");
+          pStmt->setSQL(sql);
+
+          // 执行SQL语句
+          unsigned int nRet = pStmt->executeUpdate();
+
+          if(nRet == 0) {
+              cout<<"executeUpdate insert error.\n"<<endl;
+          }
+        }
+
+        conn->terminateStatement(pStmt);
+        env->terminateConnection(conn);
+
+    }
+    catch(SQLException e)
+    {
+       cout<<"catch a error"<<endl;
+       cout<<e.what()<<endl;
+    }
 }
 
  //类中创建线程的函数，如果启动成功返回０　否则返回-1
@@ -144,7 +187,36 @@ int createThread::start(){
    }
 }
 
+string createThread::createSQL(CThostFtdcDepthMarketDataField *temp){
+  char ret[2048]={0};
+
+  sprintf(ret,"INSERT INTO QUOTATICK (TRADINGDAY,INSTRUMENTID,EXCHANGEID,EXCHANGEINSTID,LASTPRICE,PRESETTLEMENTPRICE,PRECLOSEPRICE,PREOPENINTEREST,OPENPRICE,HIGHESTPRICE,LOWESTPRICE,VOLUME,TURNOVER,OPENINTEREST,CLOSEPRICE, SETTLEMENTPRICE,UPPERLIMITPRICE,LOWERLIMITPRICE,PREDELTA,CURRDELTA,UPDATETIME,UPDATEMILLISEC,BIDPRICE1,BIDVOLUME1,ASKPRICE1,ASKVOLUME1,BIDPRICE2,BIDVOLUME2,ASKPRICE2,ASKVOLUME2,BIDPRICE3,BIDVOLUME3,ASKPRICE3,ASKVOLUME3,BIDPRICE4, BIDVOLUME4,ASKPRICE4,ASKVOLUME4,BIDPRICE5,BIDVOLUME5,ASKPRICE5,ASKVOLUME5,AVERAGEPRICE,UPDATEID) VALUES ('%s','%s','%s','%s',%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,'%s',%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%d,%.2f,%.2f)",
+    temp->TradingDay,temp->InstrumentID,temp->ExchangeID,temp->ExchangeInstID
+    ,temp->LastPrice,temp->PreSettlementPrice,temp->PreClosePrice,temp->PreOpenInterest
+    ,temp->OpenPrice,temp->HighestPrice,temp->LowestPrice,temp->Volume
+    ,temp->Turnover,temp->OpenInterest,temp->ClosePrice,temp->SettlementPrice
+    ,temp->UpperLimitPrice,temp->LowerLimitPrice,temp->PreDelta,temp->CurrDelta
+    ,temp->UpdateTime,temp->UpdateMillisec,temp->BidPrice1,temp->BidVolume1
+    ,temp->AskPrice1,temp->AskVolume1,temp->BidPrice2,temp->BidVolume2
+    ,temp->AskPrice2,temp->AskVolume2,temp->BidPrice3,temp->BidVolume3
+    ,temp->AskPrice3,temp->AskVolume3,temp->BidPrice4,temp->BidVolume4
+    ,temp->AskPrice4,temp->AskVolume4,temp->BidPrice5,temp->BidVolume5
+    ,temp->AskPrice5,temp->AskVolume5,temp->AveragePrice,1.0);
+  
+  return (string)ret;
+}
+
 createThread::~createThread()
 {
     //dtor
+  Environment::terminateEnvironment(env);
+  // close the resources
+  try{
+    conn->terminateStatement(pStmt);
+    env->terminateConnection(conn);
+    conn->terminateStatement(pStmt);
+  }
+  catch(exception& e){
+    cout<<"cant release the source"<<endl;
+  }
 }

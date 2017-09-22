@@ -2,6 +2,8 @@
 #include "application/application.h"
 using namespace std;
 
+pthread_mutex_t MUTEX;
+queue<CThostFtdcDepthMarketDataField> md_queue;
 
 int main(){
   application* app = new application();
