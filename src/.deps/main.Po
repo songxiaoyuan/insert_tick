@@ -162,7 +162,7 @@ main.o: main.cpp /usr/include/stdc-predef.h \
  /usr/include/oracle/11.2/client64/occiData.h \
  /usr/include/oracle/11.2/client64/occiControl.h \
  /usr/include/oracle/11.2/client64/occiObjects.h \
- /usr/include/oracle/11.2/client64/occiAQ.h
+ /usr/include/oracle/11.2/client64/occiAQ.h /usr/include/c++/4.8.2/ctime
 
 /usr/include/stdc-predef.h:
 
@@ -601,3 +601,5 @@ application/../createThread/../../include/ThostFtdcUserApiStruct.h:
 /usr/include/oracle/11.2/client64/occiObjects.h:
 
 /usr/include/oracle/11.2/client64/occiAQ.h:
+
+/usr/include/c++/4.8.2/ctime:

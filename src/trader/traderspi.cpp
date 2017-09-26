@@ -83,12 +83,21 @@ void CtpTraderSpi::ReqQryInstrument(TThostFtdcInstrumentIDType instId,int &reque
 void CtpTraderSpi::OnRspQryInstrument(CThostFtdcInstrumentField *pInstrument,
          CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
-    cout<<"this OnRspQryInstrument is called"<<endl;
+    // cout<<"this OnRspQryInstrument is called"<<endl;
 	if ( !IsErrorRspInfo(pRspInfo) &&  pInstrument){
-      cerr<<" on ret | instrumentid:"<<pInstrument->InstrumentID<<endl;
+      // cerr<<" on ret | instrumentid:"<<pInstrument->InstrumentID<<endl;
 
-	  instrumentsIds.insert(pInstrument->InstrumentID);
-	  //cout<<instrumentsIds.size()<<endl;
+      string tmp = (string)pInstrument->InstrumentID;
+      string::size_type idx = tmp.find("&");
+      if ( idx != string::npos)
+      {
+      	return;
+      	// cout<<"& in " <<(string)pInstrument->InstrumentID<<endl;
+      }
+      else{
+      	instrumentsIds.insert(pInstrument->InstrumentID);
+      	// cout<<instrumentsIds.size()<<endl;
+      }
   }
 }
 

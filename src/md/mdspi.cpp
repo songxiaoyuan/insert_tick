@@ -36,7 +36,7 @@ void CtpMdSpi::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin,
 void CtpMdSpi::OnRspSubMarketData(
     CThostFtdcSpecificInstrumentField *pSpecificInstrument,
     CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {
-  cerr << " on req |  submit market ...succeed" << endl;
+  // cerr << " on req |  submit market ...succeed" << endl;
 }
 
 void CtpMdSpi::OnRspUnSubMarketData(
@@ -62,9 +62,9 @@ void CtpMdSpi::OnRtnDepthMarketData(
 	pthread_mutex_lock(&MUTEX);
 	md_queue.push(temp);
 	pthread_mutex_unlock(&MUTEX);
-  string InstrumentID = pDepthMarketData->InstrumentID;
-  cout<<InstrumentID<<":"<<pDepthMarketData->LastPrice<<endl;
-  strToFile(InstrumentID);
+  //string InstrumentID = pDepthMarketData->InstrumentID;
+  //cout<<InstrumentID<<":"<<pDepthMarketData->LastPrice<<endl;
+ // strToFile(InstrumentID);
 
 /*
   cout << pDepthMarketData->InstrumentID << endl;

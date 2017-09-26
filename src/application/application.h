@@ -3,7 +3,9 @@
 #include "../trader/traderspi.h"
 #include "../basicFun/basicFun.h"
 #include "../createThread/createThread.h"
+#include <unistd.h>
 #include <iostream>
+#include <ctime>
 
 class application {
  public:
@@ -11,9 +13,9 @@ class application {
   void ConfigFun();
   void Init();
   void Run();
-  void MdUserLogin(TThostFtdcBrokerIDType appId, TThostFtdcUserIDType userId,
+  void MdUserLogin(TThostFtdcBrokerIDType BrokerID, TThostFtdcUserIDType userId,
                    TThostFtdcPasswordType passwd);
-  void TraderUserLogin(TThostFtdcBrokerIDType appId, TThostFtdcUserIDType userId,
+  void TraderUserLogin(TThostFtdcBrokerIDType BrokerID, TThostFtdcUserIDType userId,
                    TThostFtdcPasswordType passwd);
   void SubscribeMarketData();
   void GetAllInstrumentIds();
@@ -26,7 +28,7 @@ class application {
 	char* MDFRONT;
 	char* TRADEFRONT;
 
-	TThostFtdcBrokerIDType APPID;
+	TThostFtdcBrokerIDType BrokerID;
 	TThostFtdcUserIDType USERID;
 	TThostFtdcPasswordType PASSWD;
 

@@ -1,0 +1,3 @@
+50 8 * * 1-5 ./home/tiantan/EveryTimeInsert/src/insertOracle >> /home/tiantan/EveryTimeInsert/src/log
+50 20 * * 1-5 ./home/tiantan/EveryTimeInsert/src/insertOracle
+* * * * * source ~/.bash_profile &&  echo $LD_LIBRARY_PATH >> /home/tiantan/insertdatabase/log

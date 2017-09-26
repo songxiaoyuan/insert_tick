@@ -1,0 +1,114 @@
+	linux-vdso.so.1 =>  (0x00007fff4d5ee000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007fef7dd50000)
+	libthostmduserapi.so => /lib/libthostmduserapi.so (0x00007fef7d785000)
+	libthosttraderapi.so => /lib/libthosttraderapi.so (0x00007fef7cfdc000)
+	libclntsh.so.11.1 => not found
+	libocci.so.11.1 => not found
+	libnnz11.so => not found
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00007fef7ccd3000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007fef7c9d1000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007fef7c7ba000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fef7c3f7000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fef7df83000)
+	librt.so.1 => /lib64/librt.so.1 (0x00007fef7c1ef000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007fef7bfea000)
+
+
+
+
+
+
+
+/ora01/app/oracle/product/11.2.0/db_1/lib:/lib:/usr/lib
+/ora01/app/oracle/product/11.2.0/db_1/lib:/lib:/usr/lib
+	linux-vdso.so.1 =>  (0x00007ffd6afdc000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007f8db7b3d000)
+	libthostmduserapi.so => /lib/libthostmduserapi.so (0x00007f8db7571000)
+	libthosttraderapi.so => /lib/libthosttraderapi.so (0x00007f8db6dc9000)
+	libclntsh.so.11.1 => /ora01/app/oracle/product/11.2.0/db_1/lib/libclntsh.so.11.1 (0x00007f8db479e000)
+	libocci.so.11.1 => /ora01/app/oracle/product/11.2.0/db_1/lib/libocci.so.11.1 (0x00007f8db44a1000)
+	libnnz11.so => /ora01/app/oracle/product/11.2.0/db_1/lib/libnnz11.so (0x00007f8db40d9000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00007f8db3dd1000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007f8db3ace000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007f8db38b8000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007f8db34f5000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f8db7d70000)
+	librt.so.1 => /lib64/librt.so.1 (0x00007f8db32ec000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007f8db30e8000)
+	libnsl.so.1 => /lib64/libnsl.so.1 (0x00007f8db2ecf000)
+	libaio.so.1 => /lib64/libaio.so.1 (0x00007f8db2ccc000)
+	linux-vdso.so.1 =>  (0x00007ffc7bfaa000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007fb0395eb000)
+	libthostmduserapi.so => /lib/libthostmduserapi.so (0x00007fb03901f000)
+	libthosttraderapi.so => /lib/libthosttraderapi.so (0x00007fb038877000)
+	libclntsh.so.11.1 => /ora01/app/oracle/product/11.2.0/db_1/lib/libclntsh.so.11.1 (0x00007fb03624c000)
+	libocci.so.11.1 => /ora01/app/oracle/product/11.2.0/db_1/lib/libocci.so.11.1 (0x00007fb035f4f000)
+	libnnz11.so => /ora01/app/oracle/product/11.2.0/db_1/lib/libnnz11.so (0x00007fb035b87000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x00007fb03587f000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007fb03557c000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007fb035366000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fb034fa3000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fb03981e000)
+	librt.so.1 => /lib64/librt.so.1 (0x00007fb034d9a000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007fb034b96000)
+	libnsl.so.1 => /lib64/libnsl.so.1 (0x00007fb03497d000)
+	libaio.so.1 => /lib64/libaio.so.1 (0x00007fb03477a000)
+2070
+666222
+123456
+start init the thread
+start to create thread of 
+conn success
+has init the Statement
+
+al1711
+cu1711
+hc1801
+ni1801
+pb1711
+rb1801
+ru1801
+zn1711
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+2070
+666222
+123456
+start init the thread
+start to create thread of 
+conn success
+has init the Statement
+
+al1711
+cu1711
+hc1801
+ni1801
+pb1711
+rb1801
+ru1801
+zn1711
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+11
+2070
+666222
+123456
+start init the thread
+start to create thread of 
+conn success
+has init the Statement
+
+al1711
+cu1711
+hc1801
+ni1801
+pb1711
+rb1801
+ru1801
+zn1711
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+11

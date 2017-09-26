@@ -1,0 +1,1791 @@
+2070
+666222
+88888888
+start init the thread
+start to create thread of 
+conn success
+has init the Statement
+
+CF711
+CF801
+CF803
+CF805
+CF807
+CF809
+CY801
+CY802
+CY803
+CY804
+CY805
+CY806
+CY807
+CY808
+CY809
+FG710
+FG711
+FG712
+FG801
+FG802
+FG803
+FG804
+FG805
+FG806
+FG807
+FG808
+FG809
+IC1710
+IC1711
+IC1712
+IC1803
+IF1710
+IF1711
+IF1712
+IF1803
+IH1710
+IH1711
+IH1712
+IH1803
+JR711
+JR801
+JR803
+JR805
+JR807
+JR809
+LR711
+LR801
+LR803
+LR805
+LR807
+LR809
+MA710
+MA711
+MA712
+MA801
+MA802
+MA803
+MA804
+MA805
+MA806
+MA807
+MA808
+MA809
+OI711
+OI801
+OI803
+OI805
+OI807
+OI809
+PM711
+PM801
+PM803
+PM805
+PM807
+PM809
+RI711
+RI801
+RI803
+RI805
+RI807
+RI809
+RM711
+RM801
+RM803
+RM805
+RM807
+RM808
+RM809
+RS711
+RS807
+RS808
+RS809
+SF710
+SF711
+SF712
+SF801
+SF802
+SF803
+SF804
+SF805
+SF806
+SF807
+SF808
+SF809
+SM710
+SM711
+SM712
+SM801
+SM802
+SM803
+SM804
+SM805
+SM806
+SM807
+SM808
+SM809
+SR711
+SR711C5500
+SR711C5600
+SR711C5700
+SR711C5800
+SR711C5900
+SR711C6000
+SR711C6100
+SR711C6200
+SR711C6300
+SR711C6400
+SR711C6500
+SR711C6600
+SR711C6700
+SR711C6800
+SR711C6900
+SR711C7000
+SR711C7100
+SR711C7200
+SR711C7300
+SR711P5500
+SR711P5600
+SR711P5700
+SR711P5800
+SR711P5900
+SR711P6000
+SR711P6100
+SR711P6200
+SR711P6300
+SR711P6400
+SR711P6500
+SR711P6600
+SR711P6700
+SR711P6800
+SR711P6900
+SR711P7000
+SR711P7100
+SR711P7200
+SR711P7300
+SR801
+SR801C5500
+SR801C5600
+SR801C5700
+SR801C5800
+SR801C5900
+SR801C6000
+SR801C6100
+SR801C6200
+SR801C6300
+SR801C6400
+SR801C6500
+SR801C6600
+SR801C6700
+SR801C6800
+SR801C6900
+SR801C7000
+SR801C7100
+SR801C7200
+SR801C7300
+SR801C7400
+SR801P5500
+SR801P5600
+SR801P5700
+SR801P5800
+SR801P5900
+SR801P6000
+SR801P6100
+SR801P6200
+SR801P6300
+SR801P6400
+SR801P6500
+SR801P6600
+SR801P6700
+SR801P6800
+SR801P6900
+SR801P7000
+SR801P7100
+SR801P7200
+SR801P7300
+SR801P7400
+SR803
+SR803C5500
+SR803C5600
+SR803C5700
+SR803C5800
+SR803C5900
+SR803C6000
+SR803C6100
+SR803C6200
+SR803C6300
+SR803C6400
+SR803C6500
+SR803C6600
+SR803C6700
+SR803C6800
+SR803C6900
+SR803C7000
+SR803C7100
+SR803C7200
+SR803C7300
+SR803C7400
+SR803P5500
+SR803P5600
+SR803P5700
+SR803P5800
+SR803P5900
+SR803P6000
+SR803P6100
+SR803P6200
+SR803P6300
+SR803P6400
+SR803P6500
+SR803P6600
+SR803P6700
+SR803P6800
+SR803P6900
+SR803P7000
+SR803P7100
+SR803P7200
+SR803P7300
+SR803P7400
+SR805
+SR805C5500
+SR805C5600
+SR805C5700
+SR805C5800
+SR805C5900
+SR805C6000
+SR805C6100
+SR805C6200
+SR805C6300
+SR805C6400
+SR805C6500
+SR805C6600
+SR805C6700
+SR805C6800
+SR805C6900
+SR805C7000
+SR805C7100
+SR805C7200
+SR805C7300
+SR805C7400
+SR805P5500
+SR805P5600
+SR805P5700
+SR805P5800
+SR805P5900
+SR805P6000
+SR805P6100
+SR805P6200
+SR805P6300
+SR805P6400
+SR805P6500
+SR805P6600
+SR805P6700
+SR805P6800
+SR805P6900
+SR805P7000
+SR805P7100
+SR805P7200
+SR805P7300
+SR805P7400
+SR807
+SR807C5500
+SR807C5600
+SR807C5700
+SR807C5800
+SR807C5900
+SR807C6000
+SR807C6100
+SR807C6200
+SR807C6300
+SR807C6400
+SR807C6500
+SR807C6600
+SR807C6700
+SR807C6800
+SR807C6900
+SR807C7000
+SR807C7100
+SR807C7200
+SR807C7300
+SR807C7400
+SR807P5500
+SR807P5600
+SR807P5700
+SR807P5800
+SR807P5900
+SR807P6000
+SR807P6100
+SR807P6200
+SR807P6300
+SR807P6400
+SR807P6500
+SR807P6600
+SR807P6700
+SR807P6800
+SR807P6900
+SR807P7000
+SR807P7100
+SR807P7200
+SR807P7300
+SR807P7400
+SR809
+SR809C5500
+SR809C5600
+SR809C5700
+SR809C5800
+SR809C5900
+SR809C6000
+SR809C6100
+SR809C6200
+SR809C6300
+SR809C6400
+SR809C6500
+SR809C6600
+SR809C6700
+SR809C6800
+SR809C6900
+SR809C7000
+SR809C7100
+SR809C7200
+SR809C7300
+SR809C7400
+SR809P5500
+SR809P5600
+SR809P5700
+SR809P5800
+SR809P5900
+SR809P6000
+SR809P6100
+SR809P6200
+SR809P6300
+SR809P6400
+SR809P6500
+SR809P6600
+SR809P6700
+SR809P6800
+SR809P6900
+SR809P7000
+SR809P7100
+SR809P7200
+SR809P7300
+SR809P7400
+SR811
+SR811C5500
+SR811C5600
+SR811C5700
+SR811C5800
+SR811C5900
+SR811C6000
+SR811C6100
+SR811C6200
+SR811C6300
+SR811C6400
+SR811C6500
+SR811C6600
+SR811C6700
+SR811C6800
+SR811C6900
+SR811C7000
+SR811C7100
+SR811C7200
+SR811C7300
+SR811P5500
+SR811P5600
+SR811P5700
+SR811P5800
+SR811P5900
+SR811P6000
+SR811P6100
+SR811P6200
+SR811P6300
+SR811P6400
+SR811P6500
+SR811P6600
+SR811P6700
+SR811P6800
+SR811P6900
+SR811P7000
+SR811P7100
+SR811P7200
+SR811P7300
+SR901
+SR901C5500
+SR901C5600
+SR901C5700
+SR901C5800
+SR901C5900
+SR901C6000
+SR901C6100
+SR901C6200
+SR901C6300
+SR901C6400
+SR901C6500
+SR901C6600
+SR901C6700
+SR901P5500
+SR901P5600
+SR901P5700
+SR901P5800
+SR901P5900
+SR901P6000
+SR901P6100
+SR901P6200
+SR901P6300
+SR901P6400
+SR901P6500
+SR901P6600
+SR901P6700
+SR903
+SR903C5500
+SR903C5600
+SR903C5700
+SR903C5800
+SR903C5900
+SR903C6000
+SR903C6100
+SR903C6200
+SR903C6300
+SR903C6400
+SR903C6500
+SR903C6600
+SR903P5500
+SR903P5600
+SR903P5700
+SR903P5800
+SR903P5900
+SR903P6000
+SR903P6100
+SR903P6200
+SR903P6300
+SR903P6400
+SR903P6500
+SR903P6600
+T1712
+T1803
+T1806
+TA710
+TA711
+TA712
+TA801
+TA802
+TA803
+TA804
+TA805
+TA806
+TA807
+TA808
+TA809
+TF1712
+TF1803
+TF1806
+WH711
+WH801
+WH803
+WH805
+WH807
+WH809
+ZC710
+ZC711
+ZC712
+ZC801
+ZC802
+ZC803
+ZC804
+ZC805
+ZC806
+ZC807
+ZC808
+ZC809
+a1711
+a1801
+a1803
+a1805
+a1807
+a1809
+a1811
+a1901
+a1903
+ag1710
+ag1711
+ag1712
+ag1801
+ag1802
+ag1803
+ag1804
+ag1805
+ag1806
+ag1807
+ag1808
+ag1809
+agefp
+al1710
+al1711
+al1712
+al1801
+al1802
+al1803
+al1804
+al1805
+al1806
+al1807
+al1808
+al1809
+alefp
+au1710
+au1711
+au1712
+au1802
+au1804
+au1806
+au1808
+au1810
+auefp
+b1711
+b1801
+b1803
+b1805
+b1806
+b1807
+b1808
+b1809
+bb1710
+bb1711
+bb1712
+bb1801
+bb1802
+bb1803
+bb1804
+bb1805
+bb1806
+bb1807
+bb1808
+bb1809
+bu1710
+bu1711
+bu1712
+bu1801
+bu1802
+bu1803
+bu1806
+bu1809
+bu1812
+bu1903
+bu1906
+bu1909
+buefp
+c1711
+c1801
+c1803
+c1805
+c1807
+c1809
+cs1711
+cs1801
+cs1803
+cs1805
+cs1807
+cs1809
+cu1710
+cu1711
+cu1712
+cu1801
+cu1802
+cu1803
+cu1804
+cu1805
+cu1806
+cu1807
+cu1808
+cu1809
+cuefp
+fb1710
+fb1711
+fb1712
+fb1801
+fb1802
+fb1803
+fb1804
+fb1805
+fb1806
+fb1807
+fb1808
+fb1809
+fu1710
+fu1711
+fu1712
+fu1801
+fu1803
+fu1804
+fu1805
+fu1806
+fu1807
+fu1808
+fu1809
+fuefp
+hc1710
+hc1711
+hc1712
+hc1801
+hc1802
+hc1803
+hc1804
+hc1805
+hc1806
+hc1807
+hc1808
+hc1809
+hcefp
+i1710
+i1711
+i1712
+i1801
+i1802
+i1803
+i1804
+i1805
+i1806
+i1807
+i1808
+i1809
+j1710
+j1711
+j1712
+j1801
+j1802
+j1803
+j1804
+j1805
+j1806
+j1807
+j1808
+j1809
+jd1709
+jd1710
+jd1711
+jd1712
+jd1801
+jd1802
+jd1803
+jd1804
+jd1805
+jd1806
+jd1807
+jd1808
+jm1710
+jm1711
+jm1712
+jm1801
+jm1802
+jm1803
+jm1804
+jm1805
+jm1806
+jm1807
+jm1808
+jm1809
+l1710
+l1711
+l1712
+l1801
+l1802
+l1803
+l1804
+l1805
+l1806
+l1807
+l1808
+l1809
+m1711
+m1711-C-2400
+m1711-C-2450
+m1711-C-2500
+m1711-C-2550
+m1711-C-2600
+m1711-C-2650
+m1711-C-2700
+m1711-C-2750
+m1711-C-2800
+m1711-C-2850
+m1711-C-2900
+m1711-C-2950
+m1711-C-3000
+m1711-C-3050
+m1711-C-3100
+m1711-C-3150
+m1711-P-2400
+m1711-P-2450
+m1711-P-2500
+m1711-P-2550
+m1711-P-2600
+m1711-P-2650
+m1711-P-2700
+m1711-P-2750
+m1711-P-2800
+m1711-P-2850
+m1711-P-2900
+m1711-P-2950
+m1711-P-3000
+m1711-P-3050
+m1711-P-3100
+m1711-P-3150
+m1712
+m1712-C-2450
+m1712-C-2500
+m1712-C-2550
+m1712-C-2600
+m1712-C-2650
+m1712-C-2700
+m1712-C-2750
+m1712-C-2800
+m1712-C-2850
+m1712-C-2900
+m1712-C-2950
+m1712-C-3000
+m1712-C-3050
+m1712-C-3100
+m1712-C-3150
+m1712-C-3200
+m1712-P-2450
+m1712-P-2500
+m1712-P-2550
+m1712-P-2600
+m1712-P-2650
+m1712-P-2700
+m1712-P-2750
+m1712-P-2800
+m1712-P-2850
+m1712-P-2900
+m1712-P-2950
+m1712-P-3000
+m1712-P-3050
+m1712-P-3100
+m1712-P-3150
+m1712-P-3200
+m1801
+m1801-C-2450
+m1801-C-2500
+m1801-C-2550
+m1801-C-2600
+m1801-C-2650
+m1801-C-2700
+m1801-C-2750
+m1801-C-2800
+m1801-C-2850
+m1801-C-2900
+m1801-C-2950
+m1801-C-3000
+m1801-C-3050
+m1801-C-3100
+m1801-C-3150
+m1801-C-3200
+m1801-P-2450
+m1801-P-2500
+m1801-P-2550
+m1801-P-2600
+m1801-P-2650
+m1801-P-2700
+m1801-P-2750
+m1801-P-2800
+m1801-P-2850
+m1801-P-2900
+m1801-P-2950
+m1801-P-3000
+m1801-P-3050
+m1801-P-3100
+m1801-P-3150
+m1801-P-3200
+m1803
+m1803-C-2400
+m1803-C-2450
+m1803-C-2500
+m1803-C-2550
+m1803-C-2600
+m1803-C-2650
+m1803-C-2700
+m1803-C-2750
+m1803-C-2800
+m1803-C-2850
+m1803-C-2900
+m1803-C-2950
+m1803-C-3000
+m1803-C-3050
+m1803-C-3100
+m1803-P-2400
+m1803-P-2450
+m1803-P-2500
+m1803-P-2550
+m1803-P-2600
+m1803-P-2650
+m1803-P-2700
+m1803-P-2750
+m1803-P-2800
+m1803-P-2850
+m1803-P-2900
+m1803-P-2950
+m1803-P-3000
+m1803-P-3050
+m1803-P-3100
+m1805
+m1805-C-2400
+m1805-C-2450
+m1805-C-2500
+m1805-C-2550
+m1805-C-2600
+m1805-C-2650
+m1805-C-2700
+m1805-C-2750
+m1805-C-2800
+m1805-C-2850
+m1805-C-2900
+m1805-C-2950
+m1805-C-3000
+m1805-C-3050
+m1805-C-3100
+m1805-P-2400
+m1805-P-2450
+m1805-P-2500
+m1805-P-2550
+m1805-P-2600
+m1805-P-2650
+m1805-P-2700
+m1805-P-2750
+m1805-P-2800
+m1805-P-2850
+m1805-P-2900
+m1805-P-2950
+m1805-P-3000
+m1805-P-3050
+m1805-P-3100
+m1807
+m1807-C-2450
+m1807-C-2500
+m1807-C-2550
+m1807-C-2600
+m1807-C-2650
+m1807-C-2700
+m1807-C-2750
+m1807-C-2800
+m1807-C-2850
+m1807-C-2900
+m1807-C-2950
+m1807-C-3000
+m1807-P-2450
+m1807-P-2500
+m1807-P-2550
+m1807-P-2600
+m1807-P-2650
+m1807-P-2700
+m1807-P-2750
+m1807-P-2800
+m1807-P-2850
+m1807-P-2900
+m1807-P-2950
+m1807-P-3000
+m1808
+m1808-C-2450
+m1808-C-2500
+m1808-C-2550
+m1808-C-2600
+m1808-C-2650
+m1808-C-2700
+m1808-C-2750
+m1808-C-2800
+m1808-C-2850
+m1808-C-2900
+m1808-C-2950
+m1808-P-2450
+m1808-P-2500
+m1808-P-2550
+m1808-P-2600
+m1808-P-2650
+m1808-P-2700
+m1808-P-2750
+m1808-P-2800
+m1808-P-2850
+m1808-P-2900
+m1808-P-2950
+m1809
+m1809-C-2500
+m1809-C-2550
+m1809-C-2600
+m1809-C-2650
+m1809-C-2700
+m1809-C-2750
+m1809-C-2800
+m1809-C-2850
+m1809-C-2900
+m1809-C-2950
+m1809-C-3000
+m1809-P-2500
+m1809-P-2550
+m1809-P-2600
+m1809-P-2650
+m1809-P-2700
+m1809-P-2750
+m1809-P-2800
+m1809-P-2850
+m1809-P-2900
+m1809-P-2950
+m1809-P-3000
+ni1710
+ni1711
+ni1712
+ni1801
+ni1802
+ni1803
+ni1804
+ni1805
+ni1806
+ni1807
+ni1808
+ni1809
+niefp
+p1710
+p1711
+p1712
+p1801
+p1802
+p1803
+p1804
+p1805
+p1806
+p1807
+p1808
+p1809
+pb1710
+pb1711
+pb1712
+pb1801
+pb1802
+pb1803
+pb1804
+pb1805
+pb1806
+pb1807
+pb1808
+pb1809
+pbefp
+pp1710
+pp1711
+pp1712
+pp1801
+pp1802
+pp1803
+pp1804
+pp1805
+pp1806
+pp1807
+pp1808
+pp1809
+rb1710
+rb1711
+rb1712
+rb1801
+rb1802
+rb1803
+rb1804
+rb1805
+rb1806
+rb1807
+rb1808
+rb1809
+rbefp
+ru1710
+ru1711
+ru1801
+ru1803
+ru1804
+ru1805
+ru1806
+ru1807
+ru1808
+ru1809
+ruefp
+sn1710
+sn1711
+sn1712
+sn1801
+sn1802
+sn1803
+sn1804
+sn1805
+sn1806
+sn1807
+sn1808
+sn1809
+snefp
+v1710
+v1711
+v1712
+v1801
+v1802
+v1803
+v1804
+v1805
+v1806
+v1807
+v1808
+v1809
+wr1710
+wr1711
+wr1712
+wr1801
+wr1802
+wr1803
+wr1804
+wr1805
+wr1806
+wr1807
+wr1808
+wr1809
+wrefp
+y1711
+y1712
+y1801
+y1803
+y1805
+y1807
+y1808
+y1809
+zn1710
+zn1711
+zn1712
+zn1801
+zn1802
+zn1803
+zn1804
+zn1805
+zn1806
+zn1807
+zn1808
+zn1809
+znefp
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+conn success
+has init the Statement
+
+catch a error
+ORA-00001: unique constraint (HYQH.DZW) violated
+
+catch a error
+ORA-00020: maximum number of processes (150) exceeded
+

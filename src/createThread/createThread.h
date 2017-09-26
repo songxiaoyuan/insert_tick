@@ -35,6 +35,7 @@ class createThread
         Statement *pStmt;
         string oracle_name;
         string oracle_pass;
+        unsigned long long updateid;
 };
 
 #endif // CREATETHREAD_H
